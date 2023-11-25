@@ -82,7 +82,7 @@ export const initEmptyRepo = async (
     url: `/repos/${owner}/${repo}/contents/README.md`,
     method: 'PUT',
     data: {
-      message: 'Init repo via PicX(https://github.com/XPoet/picx)',
+      message: 'Init repo via(https://github.com/xfxx2022/github-img)',
       branch,
       content: window.btoa(README)
     },
