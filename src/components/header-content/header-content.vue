@@ -5,7 +5,7 @@
         <div class="logo">
           <img src="../../assets/logo.png" alt="PicX" />
         </div>
-        <div class="title">PicX</div>
+        <div class="title">番茄酱</div>
       </div>
       <div class="website-count">
         <site-count :isuv="false" />
