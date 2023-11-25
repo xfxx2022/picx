@@ -18,12 +18,6 @@
       </el-link>
     </div>
 
-    <div class="help-info-item">
-      📖 {{ $t('document') }}：
-      <el-link type="primary" href="https://picx-docs.xpoet.cn" target="_blank">
-        https://picx-docs.xpoet.cn
-      </el-link>
-    </div>
 
     <div class="help-info-item" style="margin-bottom: 2rem">🎁 {{ $t('feedback.text_3') }}</div>
 
@@ -31,9 +25,6 @@
       <el-image style="width: 300rem" src="https://xpoet.cn/images/admire-code-wechat.webp" />
     </div>
 
-    <div class="help-info-item red-text">
-      <strong> ⚠️ {{ $t('feedback.text_4') }} </strong>
-    </div>
   </div>
 </template>
 
