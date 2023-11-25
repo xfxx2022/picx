@@ -6,24 +6,7 @@
       🌍 {{ $t('feedback.text_2') }} {{ $t('shortcut_key') }}：<code>{{ shortcutKey }}</code>
     </div>
 
-    <div class="help-info-item">
-      🦁 {{ $t('author') }}：
-      <el-link type="primary" href="https://xpoet.cn/" target="_blank">@XPoet</el-link>
-    </div>
-
-    <div class="help-info-item">
-      🌀 {{ $t('repo') }}：
-      <el-link type="primary" href="https://github.com/XPoet/picx" target="_blank">
-        https://github.com/XPoet/picx
-      </el-link>
-    </div>
-
-
     <div class="help-info-item" style="margin-bottom: 2rem">🎁 {{ $t('feedback.text_3') }}</div>
-
-    <div class="help-info-item img">
-      <el-image style="width: 300rem" src="https://xpoet.cn/images/admire-code-wechat.webp" />
-    </div>
 
   </div>
 </template>
